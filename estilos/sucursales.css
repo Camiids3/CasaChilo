@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: #faf7f8; 
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    background-color: white;
+}
+
+.lista-sucursales {
+    width: 30%;
+    background-color: #191b2b; 
+    padding: 15px;
+    color: white;
+    min-height: 100vh;
+}
+
+.lista-sucursales h2 {
+    margin-bottom: 15px;
+    color: #c1364f; 
+    font-size: 40px; 
+}
+
+.lista-sucursales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-sucursales li {
+    background-color: #5e1a25; 
+    padding: 15px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.2s;
+    font-size: 22px; 
+}
+
+.lista-sucursales li:hover {
+    background-color: #c1364f; 
+}
+
+.mapa-contenedor {
+    width: 70%;
+    padding: 20px;
+    background-color: #968589; 
+}
+
+#tituloMapa {
+    margin-top: 0;
+    color: black;
+    font-size: 45px; 
+    font-weight: bold;
+}
+
+#imagenSucursal {
+    width: 30vw;          
+    max-height: 60vh;     
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.imagen-oculta {
+    display: none;
+}
+
+#mapaGoogle {
+    border: 0;
+    width: 100%;
+    height: 350px;
+}
